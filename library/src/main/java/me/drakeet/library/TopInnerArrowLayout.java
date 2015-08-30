@@ -67,7 +67,7 @@ public class TopInnerArrowLayout extends ShapeLayout {
         rectRight = resultWidth + x;
         rectTop = y;
         float srcBottom = resultHeight + rectTop;
-        rectBottom = srcBottom - scaledTriangleHeight;
+        rectBottom = srcBottom;
         path.addRect(rectLeft, rectTop, rectRight, rectBottom, Path.Direction.CW);
         path.moveTo(centerX, mArrowSizePx + rectTop);
         path.lineTo(centerX - scaledTriangleHeight * 0.618f, rectTop);
