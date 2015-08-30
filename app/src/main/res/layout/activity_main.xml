@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:drakeet="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="@string/hello_world"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#ff4f6c"
+        android:layout_width="match_parent"
+        android:paddingBottom="56dp"
+        android:layout_height="256dp"/>
+
+    <me.drakeet.library.TopInnerArrowLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        drakeet:arrowPosition="0.618"
+        drakeet:arrowSize="24dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/map"/>
+
+    </me.drakeet.library.TopInnerArrowLayout>
+
+</RelativeLayout>

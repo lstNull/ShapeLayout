@@ -1,0 +1,13 @@
+<resources>
+    <declare-styleable name="ShapeLayout">
+        <attr name="shape_src"
+            format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="TopInnerArrowLayout">
+        <attr name="arrowSize"
+            format="dimension"/>
+        <attr name="arrowPosition"
+            format="float"/>
+    </declare-styleable>
+</resources>
